@@ -1,0 +1,13 @@
+service: aws-lambda-puppeteer-serverless
+
+provider:
+  name: aws
+  region: us-east-1
+  runtime: nodejs18.x
+
+functions:
+  puppeteerExample:
+    handler: run_puppeteer.handler
+    timeout: 40
+    events:
+      - schedule: rate(10 minutes)

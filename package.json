@@ -1,0 +1,12 @@
+{
+  "name": "aws-lambda-puppeteer-serverless",
+  "author": {
+    "name": "Kyle Higginson",
+    "email": "kylehigginson20@gmail.com"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@sparticuz/chromium": "^114.0.0",
+    "puppeteer-core": "^20.7.4"
+  }
+}
